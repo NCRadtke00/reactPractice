@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from '../UI/Card'
+
 const AddUser = (props) =>{
     const addUserHandler = (event) =>{
         event.preventDefault();
     }
     return(
         <Card>
-    <from onSubmit={addUserHandler}>
+                <from onSubmit={addUserHandler}>
         <label htmlFor="username">UserName</label>
         <input type="text" id="username"/>
         <label htmlFor="age">Age</label>
