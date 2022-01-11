@@ -33,6 +33,7 @@ const AddUser = (props) => {
         //setEnteredAge('');
         nameInputRef.current.value = '';
         ageInputRef.current.value = '';
+        //using refs creates uncontrolled components as react doesn't control state
     }
     // const usernameChangeHandler = (event) => {
     //     setEnteredUsername(event.target.value);
