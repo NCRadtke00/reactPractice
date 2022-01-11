@@ -1,2 +1,0 @@
-# reactPractice
-refreshing react skills
